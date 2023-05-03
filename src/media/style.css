@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumar+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+
+* {
+    -fx-focus-color: transparent;
+    -fx-faint-focus-color: transparent;
+}
+
+.root{
+    -fx-background-image: url('slika.jpg');
+    -fx-background-size: cover;
+}
+.text{
+    -fx-font-family: 'Kumar One', cursive;
+    -fx-font-size: 45;
+    -fx-fill: #450101;
+}
+
+.sign-in{
+    -fx-font-family: 'Inter', sans-serif;
+    -fx-font-size:22.5;
+}
+
+.text-field{
+    -fx-prompt-text-fill: #808080;
+    -fx-font-size: 16px; 
+}
+.sign-in-text-field {
+    -fx-background-color: #000000;
+    -fx-text-fill: white;
+    -fx-font-size: 20px;
+    -fx-padding: 10px;
+    -fx-border-width: 0;
+    -fx-cursor: hand;
+    -fx-transition-duration: 0.8s;
+}
+
+.sign-in-text-field:hover {
+    -fx-background-color: #1C1C1C;
+}
+
+
+.sign-up{
+    -fx-font-family: 'Inter', sans-serif;
+    -fx-font-size:15;
+    -fx-fill: #444444;
+}
+.signUp-red{
+    -fx-fill: #EE4141;
+    -fx-font-size:15;
+}
+.signUp-red:hover {
+    -fx-fill: #FF0000; /* Change the fill color on hover */
+    -fx-cursor: hand; /* Change the cursor to a hand on hover */
+}
+
+.privacy{
+    -fx-font-family: 'Inter', sans-serif;
+    -fx-font-size:15;
+    -fx-fill: #444444;
+}
+.privacy:hover {
+    -fx-fill: #ff0000; /* Change the fill color on hover */
+    -fx-cursor: hand; /* Change the cursor to a hand on hover */
+}
+
+.sign-in-text-field2{
+    -fx-background-color: #EE4141;
+    -fx-text-fill: white;
+    -fx-font-size: 10px;
+    -fx-padding: 10px;
+    -fx-border-width: 0;
+    -fx-cursor: hand;
+    -fx-transition-duration: 0.8s;
+}
+
+.sign-in-text-field2:hover {
+    -fx-background-color: #000000;
+}

@@ -1,0 +1,20 @@
+Exception at timestamp: 2023-04-28 13:15:10.874
+SQLState: 23000
+Error Code: 1451
+Message: Cannot delete or update a parent row: a foreign key constraint fails (`ggdatabase`.`Game_Features`, CONSTRAINT `Game_Features_ibfk_1` FOREIGN KEY (`game_key`) REFERENCES `Game` (`game_id`))
+
+Exception at timestamp: 2023-04-28 13:15:11.091
+SQLState: 23000
+Error Code: 1451
+Message: Cannot delete or update a parent row: a foreign key constraint fails (`ggdatabase`.`Game_Features`, CONSTRAINT `Game_Features_ibfk_1` FOREIGN KEY (`game_key`) REFERENCES `Game` (`game_id`))
+
+Exception at timestamp: 2023-04-28 13:15:11.702
+SQLState: 23000
+Error Code: 1451
+Message: Cannot delete or update a parent row: a foreign key constraint fails (`ggdatabase`.`Game_Features`, CONSTRAINT `Game_Features_ibfk_1` FOREIGN KEY (`game_key`) REFERENCES `Game` (`game_id`))
+
+Exception at timestamp: 2023-04-28 16:51:21.739
+SQLState: 23000
+Error Code: 1062
+Message: Duplicate entry 'asdada' for key 'User.PRIMARY'
+

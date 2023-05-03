@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumar+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+
+* {
+    -fx-focus-color: transparent;
+    -fx-faint-focus-color: transparent;
+    -fx-margin: 0;
+   
+}
+
+.text{
+    -fx-font-family: 'Inter', sans-serif;
+    -fx-font-size:15px;
+    -fx-background-color: #450101;
+}
+
+.label1 {
+    -fx-text-fill:white;
+    -fx-cursor: hand;
+}
+.label2{
+    -fx-text-fill:white;
+    -fx-underline: true;
+}
+
+.label1:hover {
+    -fx-text-fill: #df5959;
+}
+.text-field{
+    -fx-prompt-text-fill: #808080;
+    -fx-font-size: 15.2px; 
+    -fx-background-radius: 0;
+}
+.label-games-list{
+    -fx-font-family: 'Inter', sans-serif;
+    -fx-font-weight: 100;
+   
+}
+
+
+.sign-in-text-field {
+    -fx-background-color: #EE4141;
+    -fx-text-fill: white;
+    -fx-font-size: 15px;
+    -fx-padding: 10px;
+    -fx-border-width: 0;
+    -fx-cursor: hand;
+    -fx-transition-duration: 0.8s;
+}
+
+.sign-in-text-field:hover {
+    -fx-background-color: #ffffff;
+    -fx-text-fill: rgb(0, 0, 0);
+}
+.sign-in-text-field2{
+    -fx-background-color: #EE4141;
+    -fx-text-fill: white;
+    -fx-font-size: 10px;
+    -fx-padding: 10px;
+    -fx-border-width: 0;
+    -fx-cursor: hand;
+    -fx-transition-duration: 0.8s;
+}
+
+.sign-in-text-field2:hover {
+    -fx-background-color: #000000;
+}
+
+.sign-in-text-field3{
+    -fx-background-color: #EE4141;
+    -fx-text-fill: white;
+    -fx-font-size: 20px;
+    -fx-padding: 10px;
+    -fx-border-width: 0;
+    -fx-cursor: hand;
+    -fx-transition-duration: 0.8s;
+}
+
+.sign-in-text-field3:hover {
+    -fx-background-color: #000000;
+}
+
+.sign-in-text-field4{
+    -fx-background-color: #EE4141;
+    -fx-text-fill: white;
+    -fx-font-size: 15px;
+    -fx-padding: 10px;
+    -fx-border-width: 0;
+    -fx-cursor: hand;
+    -fx-transition-duration: 0.8s;
+}
+
+.sign-in-text-field4:hover {
+    -fx-background-color: #000000;
+}
+
+
+
+.myRectangle {
+    -fx-fill: #424242; 
+}
+
+
+
+.text-field2{
+    -fx-prompt-text-fill: #808080;
+    -fx-font-size: 20px; 
+    -fx-background-radius: 50;
+    -fx-border-radius: 50;
+    -fx-border-width: 5;
+    -fx-border-color: #450101;
+}
+
+.genre {
+    -fx-font-size: 100px;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+}
+.genre-text {
+    -fx-font-size: 20px;
+    -fx-text-fill: white;
+}
+.filter{
+    -fx-text-size: 300px;
+    -fx-text-fill: white; 
+}
+
+.reset{
+    -fx-background-color: #EE4141;
+    -fx-text-fill: white;
+    -fx-font-size: 20px;
+    -fx-padding: 10px;
+    -fx-border-width: 0;
+    -fx-cursor: hand;
+    -fx-transition-duration: 0.8s;
+}
+
+.reset:hover {
+    -fx-background-color: #ffffff;
+    -fx-text-fill: rgb(0, 0, 0);
+}
+
+.labels-games{
+    -fx-text-fill:white;
+}
+
+
+.game-label {
+    -fx-font-size: 40;
+    -fx-font-weight: bold;
+    -fx-font-family: 'Inter', sans-serif;
+}
+
+.publisher-label {
+    -fx-font-size: 20;
+    -fx-text-fill: #6A6A6A;
+    -fx-font-family: 'Inter', sans-serif;
+}
+
+.publisher-name-label {
+    -fx-font-size: 20;
+    -fx-text-fill: #6A6A6A;
+    -fx-font-family: 'Inter', sans-serif;
+}
+
+.genre-label {
+    -fx-font-size: 20;
+    -fx-text-fill: #6A6A6A;
+    -fx-font-family: 'Inter', sans-serif;
+}
+
+.genre-name-label {
+    -fx-font-size: 20;
+    -fx-text-fill: #6A6A6A;
+    -fx-font-family: 'Inter', sans-serif;
+}
+
+.date-label {
+    -fx-font-size: 20;
+    -fx-text-fill: #6A6A6A;
+    -fx-font-family: 'Inter', sans-serif;
+}
+
+.date-of-purchase-label {
+    -fx-font-size: 20;
+    -fx-text-fill: #6A6A6A;
+    -fx-font-family: 'Inter', sans-serif;
+}
+
+.product-key-label {
+    -fx-font-size: 25;
+    -fx-font-weight: bold;
+    -fx-font-family: 'Inter', sans-serif;
+}
+
+.product-key-code-label {
+    -fx-font-size: 25;
+    -fx-font-weight: bold;
+    -fx-font-family: 'Inter', sans-serif;
+    -fx-fill: white;
+}
+
+.description-label {
+    -fx-font-weight: bold;
+    -fx-font-family: 'Inter', sans-serif;
+}
+
+.specifications-label {
+    -fx-font-weight: bold;
+    -fx-font-family: 'Inter', sans-serif;
+}
+
+.reviews-label {
+    -fx-font-size: 30;
+    -fx-font-weight: bold;
+    -fx-font-family: 'Inter', sans-serif;
+}
+
+.user-label {
+    -fx-font-size: 20;
+    -fx-font-weight: bold;
+    -fx-font-family: 'Inter', sans-serif;
+    -fx-fill: #4B4B4B;
+}
+
+.user-review-text-area {
+    -fx-text-fill: #4B4B4B;
+}
+
+.game-price-label{
+    -fx-font-size: 35;
+    -fx-font-family: 'Inter', sans-serif;
+}
+
+
+.buttons-game{
+    -fx-background-color: #450101;
+    -fx-text-fill: white;
+    -fx-font-size: 15px;
+    -fx-padding: 10px;
+    -fx-border-width: 0;
+    -fx-cursor: hand;
+    -fx-transition-duration: 0.8s;
+}
+
+.buttons-game:hover {
+    -fx-background-color: #9e0000;
+}
+
+.labels-admin{
+    -fx-font-size: 20;
+    -fx-font-weight: bold;
+    -fx-font-family: 'Inter', sans-serif;
+}
+
+.sign-out-field{
+    -fx-background-color: #EE4141;
+    -fx-text-fill: white;
+    -fx-font-size: 20px;
+    -fx-padding: 10px;
+    -fx-border-width: 0;
+    -fx-cursor: hand;
+    -fx-transition-duration: 0.8s;
+}
+
+.sign-out-field:hover {
+    -fx-background-color: #000000;
+}
+
+.price{
+    -fx-font-size: 40;
+    -fx-font-weight: bold;
+    -fx-font-family: 'Inter', sans-serif;
+    -fx-fill:#450101;
+}
+
+.games{
+    -fx-font-size: 20;
+    -fx-font-weight:bold;
+    -fx-font-family: 'Inter', sans-serif;
+}

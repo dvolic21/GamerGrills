@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumar+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+
+* {
+    -fx-focus-color: transparent;
+    -fx-faint-focus-color: transparent;
+    -fx-margin: 0;
+}
+
+.text{
+    -fx-font-family: 'Inter', sans-serif;
+    -fx-font-size:20px;
+    -fx-background-color: #450101;
+}
+
+.label2{
+    -fx-text-fill:white;
+    
+}
+
+
+
+.sign-out{
+    -fx-background-color: #EE4141;
+    -fx-text-fill: white;
+    -fx-font-size: 10px;
+    -fx-padding: 10px;
+    -fx-border-width: 0;
+    -fx-cursor: hand;
+    -fx-transition-duration: 0.8s;
+}
+
+.sign-out:hover {
+    -fx-background-color: #000000;
+}
+
+.delete-button{
+    -fx-background-color: #EE4141;
+    -fx-text-fill: white;
+    -fx-font-size: 20px;
+    -fx-padding: 10px;
+    -fx-border-width: 0;
+    -fx-cursor: hand;
+    -fx-transition-duration: 0.8s;
+}
+
+.delete-button:hover {
+    -fx-background-color: #000000;
+}
+
+.sign-in-text-field4{
+    -fx-background-color: #EE4141;
+    -fx-text-fill: white;
+    -fx-font-size: 15px;
+    -fx-padding: 10px;
+    -fx-border-width: 0;
+    -fx-cursor: hand;
+    -fx-transition-duration: 0.8s;
+}
+
+.sign-in-text-field4:hover {
+    -fx-background-color: #000000;
+}
+
+
+.addGames{
+    -fx-background-color: #EE4141;
+    -fx-text-fill: white;
+    -fx-font-size: 20px;
+    -fx-padding: 10px;
+    -fx-border-width: 0;
+    -fx-cursor: hand;
+    -fx-transition-duration: 0.8s;
+}
+
+.addGames:hover {
+    -fx-background-color: #000000;
+}
